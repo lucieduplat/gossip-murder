@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
+
 import Accueil from './Accueil.js';
 import Docteur from './Docteur';
 import './App.css';
 import {Switch, Route} from "react-router-dom";
 import ListingMurder from "./ListingMurder"
 
+import Marmousets from './components/RUE DES MARMOUSETS/Marmousets'
+import './App.css'
+
+
 class App extends Component {
   render() {
     return (
+
 
       <div className="App">
         <Accueil />
@@ -31,6 +37,12 @@ class App extends Component {
             
           </Switch>
           </div>
+
+      <div>
+        <Marmousets />
+        
+      </div>
+
     );
   }
 }
