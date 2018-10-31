@@ -1,32 +1,25 @@
-.App {
-  text-align: center;
+* {
+    cursor: url('./bloodyHand_burned.png'), pointer;
+    } 
+
+body{
+    font-family: 'Architects Daughter', cursive;
+
+    background-color: black;
+
+    height: 100%;
+    width: 100%;
+    animation-name: flash;
+    animation-duration: .50s;
+    animation-iteration-count: 6;
+    animation-direction: alternate;
+
+
+    
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes flash {
+    1% {background-color: white;}
+    20% {background-color: black;}
+   
   }
-  to {
-    transform: rotate(360deg);
-  }
-}

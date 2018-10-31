@@ -1,26 +1,36 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Accueil from './Accueil.js';
+import Docteur from './Docteur';
 import './App.css';
+import {Switch, Route} from "react-router-dom";
+import ListingMurder from "./ListingMurder"
 
 class App extends Component {
   render() {
     return (
+
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+        <Accueil />
+      
+
+
+
+
+            <Switch>
+          
+      
+              <Route exact path="/" component={Accueil} />
+              <Route path="/ListingMurder" component={ListingMurder} />
+              <Route path="/" component={} />
+              <Route path="/Docteur" component={Docteur} />
+              <Route path="/Murder" component={Murder} />
+              <Route path="/Profanateur" component={Profanateur} />
+              <Route path="/Tueur" component={SerialKiller1} />
+              <Route path="/Marmoussset" component={Marmousset} />
+              <Route path="/Vampire" component={Vampire} />
+            
+          </Switch>
+          </div>
     );
   }
 }
