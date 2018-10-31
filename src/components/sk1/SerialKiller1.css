@@ -1,0 +1,60 @@
+* {
+    cursor: url('../images/bloodyHand_burned.png'), pointer;
+        } 
+
+.serial1 {
+text-align: center;
+position: relative;
+color : black;
+margin-top : 1%;
+font-size: 0.8em;
+font-family: 'Architects Daughter', cursive;
+font-weight: bold;
+}
+
+.titre{
+font-size: 4em;
+margin-top : -10%;
+font-family: 'Creepster', cursive;
+}
+ 
+label{
+    font-size: 1.40em;
+    display: block;
+    margin: auto;
+    word-break: break-word;
+    width: 500px;
+    line-height: 1;
+
+}
+
+/* .parchemin{
+position: absolute;
+margin-top : -10%;
+text-align: center;
+
+} */
+
+
+
+.quizz{
+    position: relative;
+    margin-top: -46%;
+    }
+   
+#submit {
+    background-color: black;
+    }
+     
+#answer {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    word-break: break-word;
+    width : 280px;
+    display: block;
+    margin: auto;
+    color:white;
+
+    }
