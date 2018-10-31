@@ -1,0 +1,150 @@
+body {
+    background-color: black;
+}
+
+
+.backgroundmurder {
+
+    color: black;
+    margin-left: 730px;
+    margin-top: 150px;
+    font-size: 30px;
+
+
+}
+
+li {
+
+    list-style-image : url(https://png.icons8.com/cotton/50/000000/jack-o-lantern.png);
+    
+}
+
+.map {
+    position: absolute;
+    right: 120px;
+    top:120px;
+
+}
+
+.icone1 {
+    display: none;
+    position: relative;
+    top:-500px;
+    left: 1170px;
+    width: 25px;
+}
+.doc:hover ~ .icone1 {
+display: block;    
+}
+
+.icone2 {
+    display: none;
+    position: relative;
+    top:-500px;
+    left: 1070px;
+    width: 25px;
+}
+.mag:hover ~ .icone2{
+display: block;    
+}
+
+.icone3 {
+    display: none;
+    position: relative;
+    top:-400px;
+    left: 1340px;
+    width: 25px;
+}
+.marq:hover ~ .icone3{
+display: block;    
+}
+
+.icone4 {
+    display: none;
+    position: relative;
+    top:-638px;
+    left: 1208px;
+    width: 25px;
+}
+.mont:hover ~ .icone4{
+display: block;    
+}
+.doc h1 {
+    display: inline-block;
+    color: white;
+    font-family: 'fantaisy';
+    margin-left: 120px;
+    margin-top: 90px;
+}
+
+.colorw {
+    color: white;
+    font-family: 'fantaisy';
+    margin-left: 120px;
+}
+
+
+.icone5 {
+    display: none;
+    position: relative;
+    top:-238px;
+    left: 1308px;
+    width: 25px;
+}
+.tueur:hover ~ .icone5{
+display: block;    
+}
+
+.icone6 {
+    display: none;
+    position: relative;
+    top:-400px;
+    left: 1300px;
+    width: 25px;
+}
+.prof:hover ~ .icone6{
+display: block;    
+}
+
+.icone7 {
+    display: none;
+    position: relative;
+    top:-400px;
+    left: 1300px;
+    width: 25px;
+}
+.est:hover ~ .icone7{
+display: block;    
+}
+
+.icone8 {
+    display: none;
+    position: relative;
+    top:-390px;
+    left: 1210px;
+    width: 25px;
+  
+   
+
+}
+.rue:hover ~ .icone8{
+display: block;    
+}
+
+.icone9 {
+    display: none;
+    position: relative;
+    top:-310px;
+    left: 1065px;
+    width: 25px;
+  
+   
+
+}
+.vamp:hover ~ .icone9{
+display: block;    
+}
+
+a{
+    text-decoration: none;
+}
