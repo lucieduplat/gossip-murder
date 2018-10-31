@@ -1,0 +1,80 @@
+/* @import url('https://fonts.googleapis.com/css?family=Creepster'); */
+
+* {
+    cursor: url('./image/bloodyHand_burned.png'), pointer;
+}
+
+/* @font-face {
+    font-family: 'Creepster', cursive;
+    src: url('https://fonts.googleapis.com/css?family=Creepster')
+} */
+
+.marmouset {
+    text-align: center;
+    position: relative;
+    color : black;
+    margin-top : 1%;
+    font-size: 0.8em;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    }
+    
+.marmouset .titre{
+    font-size: 4em;
+    margin-top : -18%;
+    font-family: 'Creepster', cursive;
+    }
+    .marmouset h2{
+        display: block;
+        margin: auto;
+        width :500px;
+        word-break: break-word;
+    }
+    
+    .marmouset label{
+    font-size: 1.40em;
+    
+    }
+    
+    .marmouset .parchemin{
+    position: absolute;
+    margin-top : -10%;
+    text-align: center;
+    
+    }
+    
+    .marmouset .questions{
+    position: relative;
+    margin-top: -57%;
+    }
+    
+    .marmouset #submit {
+    background-color: black;
+    border: 1px solid 
+    }
+    
+    .marmouset #answer {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 20px;
+    word-break: break-word;
+    width : 380px;
+    border: 3px black solid;
+    display: block;
+    margin: auto;
+    color: white;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
