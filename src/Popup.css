@@ -1,0 +1,17 @@
+.wrapper{
+    border: solid 0.5em red;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    background-color: black;
+    font-size: 1.15em;
+    font-family: "Creepster";
+    margin-bottom: 1%;
+  
+}
+
+.submit{
+ 
+    background-color: black;
+}
+
