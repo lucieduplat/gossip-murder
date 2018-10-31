@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+}
+
+
+.murderbloc {
+text-align: center;
+position: relative;
+color : black;
+margin-top : 1%;
+font-size: 0.8em;
+font-family: 'Architects Daughter', cursive;
+font-weight: bold;
+}
+
+.mystitle {
+font-size: 4em;
+margin-top : -18%;
+font-family: 'Creepster', cursive;
+}
+
+
+label{
+    font-size: 1.40em;
+}
+
+
+.parchemin{
+    position: absolute;
+    margin-top : -10%;
+    text-align: center;
+}
+
+
+#quizMyst {
+
+    position: relative;
+    margin-top: -53%;
+
+}
+
+#submit {
+    background-color: black;
+    margin-top: 20px;
+    }
+
+#answers {
+        font-family: 'Architects Daughter', cursive;
+        font-weight: bold;
+        font-size: 1.5em;
+        padding-top: 20px;
+        word-break: break-word;
+        width : 345px;
+        border: 3px black solid;
+        display: block;
+        margin: auto;
+        color: white;
+        margin-top: 400px;
+
+        
+}
+
+* {
+    cursor: url('./bloodyHand_burned.png'), pointer;
+    }
+
