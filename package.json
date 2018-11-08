@@ -13,9 +13,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prettify":"prettier --single-quote --trailing-comma all --write '{src,__{tests,mocks}__}/**/*.js'"
-      },
-  
+    "prettify": "prettier --single-quote --trailing-comma all --write '{src,__{tests,mocks}__}/**/*.js'"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },

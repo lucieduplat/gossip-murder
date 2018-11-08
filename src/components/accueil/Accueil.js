@@ -3,7 +3,7 @@ import Popup from './Popup.js';
 import './Accueil.css';
 import sang from './sang.png';
 import citrouille from './citrouille.png';
-import audio from './horreur.mp3';
+import audio from '../RUE DES MARMOUSETS/musique/horreur.mp3';
 
 class Accueil extends Component {
   render() {

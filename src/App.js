@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 
-import Accueil from './Accueil.js';
-import Docteur from './Docteur';
+import Accueil from './components/accueil/Accueil';
+import Docteur from './components/docteur/Docteur';
+import ListingMurder from './components/listingmurder/Listingmurder';
+import Murder from './components/murder/Murder';
+import Marmoussets from './components/RUE DES MARMOUSETS/Marmousets';
+import Vampire from './components/vampire/Vampire';
+import SerialKiller1 from './components/sk1/SerialKiller1';
+import Monstre from './components/Le_monstre_de_montmartre/SerialKiller6'
 import './App.css';
 import {Switch, Route} from "react-router-dom";
-import ListingMurder from "./ListingMurder"
 
 import Marmousets from './components/RUE DES MARMOUSETS/Marmousets'
 import './App.css'
@@ -17,30 +22,22 @@ class App extends Component {
 
       <div className="App">
         <Accueil />
-      
-
-
-
-
-            <Switch>
-          
-      
-              <Route exact path="/" component={Accueil} />
-              <Route path="/ListingMurder" component={ListingMurder} />
-              <Route path="/" component={} />
-              <Route path="/Docteur" component={Docteur} />
-              <Route path="/Murder" component={Murder} />
-              <Route path="/Profanateur" component={Profanateur} />
-              <Route path="/Tueur" component={SerialKiller1} />
-              <Route path="/Marmoussset" component={Marmousset} />
-              <Route path="/Vampire" component={Vampire} />
-            
-          </Switch>
-          </div>
-
-      <div>
-        <Marmousets />
+        {/* <ListingMurder/> */}
+        <Vampire />
+        <Monstre />
+        <Murder />
+        <Marmoussets />
         
+        <Docteur />
+        {/* <SerialKiller1 /> */}
+
+      
+
+
+
+
+
+   
       </div>
 
     );

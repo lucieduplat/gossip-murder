@@ -1,6 +1,7 @@
 import React from 'react';
 import citrouille1 from './citrouille1.png';
 import './Popup.css';
+import ListingMurder from '../listingmurder/Listingmurder'
 
 class Popup extends React.Component {
   state = {
@@ -75,7 +76,7 @@ class Popup extends React.Component {
         <div id="answers">
           {this.state.win}
           {this.state.badAnswers}
-          {/* {this.state.win && <ListingMurder />} */}
+         {/* {this.state.win && <ListingMurder />}  */}
         </div>
 
         <br />
