@@ -3,6 +3,7 @@ import citrouille1 from './citrouille1.png';
 import './Docteur.css';
 import parchemin from './parchemin.jpg';
 import Docteurfou from './Docteurfou';
+import audio from "../musique/horreur.mp3";
 
 class Docteur extends React.Component {
   state = {
@@ -62,24 +63,29 @@ class Docteur extends React.Component {
       <div className="wrap">
         <img
           src={parchemin}
-          classeName="parchemin"
+    
           width="45%"
           alt="parchemin"
         />
+        <audio id="audioPlayer" src={audio} autoPlay loop />
         <div className="quizdoc">
           <h1 className="titreQ">Quizz</h1>
           <h2>Son principal outil de travail est le stestoscope</h2>
 
           <label>
-            <input type="radio" name="q1" value="Infirmier" />
+            <input type="radio" 
+            name="q1" 
+            value="Infirmier" />
             Infirmier
           </label>
           <br />
+
           <label>
             <input type="radio" name="q1" value="Aide-soignant" />
             Aide-soignant
           </label>
           <br />
+
           <label>
             <input type="radio" name="q1" value="c1" />
             Docteur
@@ -93,6 +99,7 @@ class Docteur extends React.Component {
             liquide
           </label>
           <br />
+
           <label>
             <input type="radio" name="q2" value="solide" />
             solide
@@ -111,11 +118,13 @@ class Docteur extends React.Component {
             les bonbons pimouses
           </label>
           <br />
+
           <label>
             <input type="radio" name="q3" value="les insectes" />
             les insectes
           </label>
           <br />
+
           <label>
             <input type="radio" name="q3" value="c1" />
             les bijoux qui brillent

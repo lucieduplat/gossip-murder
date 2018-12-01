@@ -1,12 +1,13 @@
 .wrapper{
     border: solid 0.5em red;
     width: 50%;
-    position: relative;
+    height: 40%;
+    position: absolute;
     left: 25%;
     background-color: black;
     font-size: 1.15em;
     font-family: "Creepster";
-    margin-bottom: 1%;
+  
   
 }
 
@@ -18,3 +19,4 @@
 * {
     cursor: url('../vampire/bloodyHand_burned.png'), pointer;
     } 
+
