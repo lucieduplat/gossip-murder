@@ -20,26 +20,23 @@ label{
     
 }
 
-.parchemin{
-    position: absolute; 
-    margin-top : -10%;
-    text-align: center;
 
-    
-
-}
 
 .quizdoc {
     position: relative;
     margin-top: -53%;
 }
 
-#answers
-{margin : auto;
-color : white;
-display: block;
-word-break: break-word;
-width : 380px;
-margin-top: 10%;
-margin-bottom: 2%;
-font-size: 1.5em;}
+    
+#answer {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 75px;
+    word-break: break-word;
+    width : 280px;
+    border: 3px black solid;
+    display: block;
+    margin: auto;
+    color: white;
+    }

@@ -32,7 +32,7 @@ class Joe extends React.Component {
 
     render() {
         return (
-            <div>
+            <div >
                 <h1>{this.state.name}</h1>
                 <img src={this.state.image} alt="Guy Georges" />
                 <p>{this.state.histoire}</p>
